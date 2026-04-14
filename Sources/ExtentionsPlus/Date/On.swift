@@ -5,6 +5,8 @@
 //  Created by Tirzaan on 4/14/26.
 //
 
+import Foundation
+
 extension Date {
     // MARK: - Quick Date Access
     static var yesterday: Date  { Calendar.current.date(byAdding: .day, value: -1, to: .now)! }
